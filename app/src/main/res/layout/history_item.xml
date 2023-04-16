@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/history_item"
+        android:maxLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="3!=6"
+        android:ellipsize="end"
+        android:textSize="18dp"></TextView>
+</layout>

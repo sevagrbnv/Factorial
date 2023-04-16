@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Factorial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Factorial">Факториал</string>
+    <string name="swipe_for_delete">Смахни элемент в сторону, чтобы удалить</string>
+    <string name="enter_the_number">Введите число</string>
+    <string name="error_in_line">Некорректный ввод</string>
+</resources>
