@@ -32,8 +32,10 @@ class MainViewModel(
                 resultString = "Ошибка!"
             }
         }
-        val item = HistoryItem(expression = resultString)
-        repository.addItem(item)
+        if (!resultString.isBlank()) {
+            val item = HistoryItem(expression = resultString)
+            repository.addItem(item)
+        }
     }
 
     fun getFactorial(n: Long): BigInteger {
